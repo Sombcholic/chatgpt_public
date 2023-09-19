@@ -1,0 +1,4 @@
+chatgptAPI.yml
+chatgpt/createDataset/data/dataset
+chatgpt/createDataset/data/keyword_sentenece
+chatgpt/createDataset/data/similar_sentence
