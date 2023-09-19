@@ -25,7 +25,7 @@ class chatGpt():
         self.message = dataList
 
     def get_API(self):
-        with open('../../chatgptAPI.yml', 'r') as f:
+        with open('../chatgptAPI.yml', 'r') as f:
             data = yaml.safe_load(f)
             openai.api_key = data['chatgpt_api']
     

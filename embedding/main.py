@@ -9,7 +9,7 @@ import time
 
 # https://platform.openai.com/docs/guides/embeddings/what-are-embeddings
 if __name__ == "__main__":
-    with open('../../chatgptAPI.yml', 'r') as f:
+    with open('../chatgptAPI.yml', 'r') as f:
         data = yaml.safe_load(f)
         api_key = data['chatgpt_api']
 
